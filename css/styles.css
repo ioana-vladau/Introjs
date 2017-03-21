@@ -1,0 +1,13 @@
+.awesome {
+    animation: cool 3s alternate infinite;
+}
+
+.highlight {
+    color: blue;
+}
+
+@keyframes cool {
+    to {
+        transform: translate(90vw);
+    }
+}
